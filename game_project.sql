@@ -6,8 +6,7 @@ use salesGames;
 
 -- Create table
 create table if not exists sales (
-	id int not null auto_increment primary key,
-    ranking varchar(30) not null,
+    ranking int not null primary key,
     name_game varchar(150) not null,
     platform varchar(5) not null,
     year year not null,
